@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/team"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+
+                    android:background="@color/colorPrimaryDark"
+                    android:backgroundTintMode="src_atop"
+                    android:elevation="8dp"
+                    android:gravity="bottom|center"
+                    android:padding="16dp"
+                    android:text="Your team"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/leaderboard"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:text="Leader Board"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/schedule"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:text="Schedule"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/point"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:text="Point Table"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/news"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:text="News"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/about"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:gravity="bottom|center"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:text="About"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

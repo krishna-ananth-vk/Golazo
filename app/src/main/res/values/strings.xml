@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Golazo</string>
+    <string name="welcometext">Create You Team \nNow</string>
+    <string name="terms">By signing up you are agreeing to terms and \nconditions to golazo fantasy league</string>
+    <string name="create">You haven\'t created a team \nClick on the + icon to create
+        \n\nYou can create only one team and once you created you cannot make changes
+
+    </string>
+
+    <string-array name="department">
+        <item>"Select department"</item>
+        <item>"CSE"</item>
+        <item>"Civil"</item>
+        <item>"EEE"</item>
+        <item>"ECE"</item>
+        <item>"ME"</item>
+        <item>"MCA"</item>
+    </string-array>
+
+    <string-array name="sem">
+        <item>"Select Semester"</item>
+        <item>"S1"</item>
+        <item>"S3"</item>
+        <item>"S5"</item>
+        <item>"S7"</item>
+    </string-array>
+</resources>

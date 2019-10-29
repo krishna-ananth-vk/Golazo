@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:inputType="text"
+        android:layout_marginStart="16dp"
+        android:hint="Name"
+        android:id="@+id/name"
+
+        />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sem"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/name"/>
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dept"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/sem"/>
+
+</RelativeLayout>

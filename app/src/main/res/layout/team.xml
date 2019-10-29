@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:id="@+id/msg"
+        android:layout_marginTop="50dp"
+        android:text="@string/create"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create"
+        android:layout_marginVertical="8dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:layout_below="@+id/msg"
+        android:layout_centerHorizontal="true"
+        android:text="Create team"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/teamList">
+
+    </ListView>
+
+</RelativeLayout>

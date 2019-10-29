@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66205405039",
+    "firebase_url": "https://golazo-civil.firebaseio.com",
+    "project_id": "golazo-civil",
+    "storage_bucket": "golazo-civil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66205405039:android:e3183f073c02488c63229a",
+        "android_client_info": {
+          "package_name": "tech.the_code_builder.golazo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66205405039-287i87489ud9pd5i9njc1ng891mepm7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.the_code_builder.golazo",
+            "certificate_hash": "cdf95a7f342c8f3e04dc4f6e9a914cc981db0c4a"
+          }
+        },
+        {
+          "client_id": "66205405039-f2ojs92eha3kehmdcd4p2hb0gqi62urn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYOTPliodPNZ_3M2TTXtq91B7-JF40bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66205405039-f2ojs92eha3kehmdcd4p2hb0gqi62urn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
