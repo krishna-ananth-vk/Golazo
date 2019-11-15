@@ -54,7 +54,7 @@ public class Confirm extends AppCompatActivity {
                             team.add(snapshot.getString("team"));
                             pos.add(snapshot.getString("pos"));
 
-                            if (names.size()==12){
+                            if (names.size()==9){
                                 createList(names,team,pos);
                             }
 

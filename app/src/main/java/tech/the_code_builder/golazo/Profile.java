@@ -21,7 +21,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import org.w3c.dom.Document;
+
 
 public class Profile extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
@@ -67,7 +67,7 @@ public class Profile extends AppCompatActivity {
                         name.setText(documentSnapshot.getString("name"));
                         sem.setText(documentSnapshot.getString("sem"));
                         dept.setText(documentSnapshot.getString("dept"));
-                        point.setText(documentSnapshot.getString("point"));
+//                        point.setText(documentSnapshot.getString("point"));
                     }
                     else {
                         Log.d("Result","fail");

@@ -64,10 +64,12 @@ public class Team extends AppCompatActivity {
                     DocumentSnapshot documentSnapshot = task.getResult();
                     if (documentSnapshot.exists()){
                         team = documentSnapshot.getBoolean("team");
+                        teamView(team);
+                        System.out.println("------------"+team);
                     }
                 }
 
-                teamView();
+
             }
         });
     }
@@ -75,7 +77,8 @@ public class Team extends AppCompatActivity {
 
 
 
-    public void teamView(){
+    public void teamView(Boolean team){
+        System.out.println("------------"+team);
         if (!team){
             TextView msg = findViewById(R.id.msg);
             msg.setVisibility(View.VISIBLE);
@@ -132,7 +135,7 @@ public class Team extends AppCompatActivity {
                                 pos.add(snapshot.getString("pos"));
                                 teams.add(snapshot.getString("team"));
                                 points.add(String.valueOf(snapshot.getLong("point")));
-                                if (names.size()==12){
+                                if (names.size()==9){
                                     list(names,pos,teams,points);
                                 }
                             }

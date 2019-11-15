@@ -73,7 +73,7 @@ public class CreateTeam extends AppCompatActivity {
                         @Override
                         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                             TextView select = view.findViewById(R.id.select);
-                            d = id.get(i);
+                            d = pos.get(i);
                             Log.d("msg", d);
 
                             if (list.contains(d)){
@@ -87,91 +87,63 @@ public class CreateTeam extends AppCompatActivity {
                                 if(list.size()<9){
                                     switch (team.get(i)) {
 
-                                        case "cse":
+                                        case "b":
                                             Log.d("Team count",""+cse);
-                                            if (cse < 3) {
+                                            if (b < 3) {
                                                 cse++;
                                                 list.add(d);
                                                 select.setText("Remove");
                                             }
                                             else {
                                                 Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
+                                                        "Player limit exceeded.  :(",
                                                         Toast.LENGTH_LONG).show();
                                             }
 
                                             break;
-                                        case "civil":
+                                        case "m":
                                             Log.d("Team count",""+ce);
-                                            if (ce < 3) {
-                                                ce++;
+                                            if (m < 3) {
+                                                m++;
                                                 list.add(d);
                                                 select.setText("Remove");
                                             }
                                             else {
                                                 Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
+                                                        "Player limit exceeded.  :(",
                                                         Toast.LENGTH_LONG).show();
                                             }
 
                                             break;
-                                        case "ece":
+                                        case "f":
                                             Log.d("Team count",""+ec);
-                                            if (ec < 3) {
-                                                ec++;
+                                            if (f < 2) {
+                                                f++;
                                                 list.add(d);
                                                 select.setText("Remove");
                                             }
                                             else {
                                                 Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
+                                                        "Player limit exceeded.  :(",
                                                         Toast.LENGTH_LONG).show();
                                             }
 
                                             break;
-                                        case "eee":
+                                        case "gk":
                                             Log.d("Team count",""+ee);
-                                            if (ee < 3) {
-                                                ee++;
+                                            if (gk < 3) {
+                                                gk++;
                                                 list.add(d);
                                                 select.setText("Remove");
                                             }
                                             else {
                                                 Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
+                                                        "Player limit exceeded.  :(",
                                                         Toast.LENGTH_LONG).show();
                                             }
 
                                             break;
-                                        case "mech":
-                                            Log.d("Team count",""+mech);
-                                            if (mech < 3) {
-                                                mech++;
-                                                list.add(d);
-                                                select.setText("Remove");
-                                            }
-                                            else {
-                                                Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
-                                                        Toast.LENGTH_LONG).show();
-                                            }
 
-                                            break;
-                                        case "barch":
-                                            Log.d("Team count",""+barch);
-                                            if (barch < 3) {
-                                                barch++;
-                                                list.add(d);
-                                                select.setText("Remove");
-
-                                            }
-                                            else {
-                                                Toast.makeText(CreateTeam.this,
-                                                        "Player limit exceeded. You can select atmost 3 players from a department :(",
-                                                        Toast.LENGTH_LONG).show();
-                                            }
-
-                                            break;
                                     }
 
 

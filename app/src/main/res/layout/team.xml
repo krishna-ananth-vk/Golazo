@@ -26,6 +26,20 @@
         android:background="@color/colorPrimaryDark"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create"
+        android:id="@+id/rules"
+        android:layout_marginTop="1dp"
+        android:gravity="center_horizontal"
+        android:text="Rules"
+        android:textColor="@color/iron"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,5 +47,6 @@
         android:id="@+id/teamList">
 
     </ListView>
+
 
 </RelativeLayout>
